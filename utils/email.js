@@ -16,13 +16,14 @@ export default class Email {
   // Create different transports for different environments
   newTransport() {
     if (process.env.NODE_ENV === 'production') {
-      // Sendgrid
       return nodemailer.createTransport({
-        service: 'SendGrid',
+        // service: 'Brevo',
+        host: process.env.SENDINBLUE_HOST,
+        port: process.env.SENDINBLUE_PORT,
         auth: {
-          user: process.env.SENDGRID_USERNAME,
-          pass: process.env.SENDGRID_PASSWORD
-        }
+          user: process.env.SENDINBLUE_LOGIN,
+          pass: process.env.SENDINBLUE_PASSWORD,
+        },
       });
     }
 
@@ -31,8 +32,8 @@ export default class Email {
       port: process.env.EMAIL_PORT,
       auth: {
         user: process.env.EMAIL_USERNAME,
-        pass: process.env.EMAIL_PASSWORD
-      }
+        pass: process.env.EMAIL_PASSWORD,
+      },
     });
   }
 

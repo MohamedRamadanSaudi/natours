@@ -1,7 +1,7 @@
 {
-  "name": "node-natours",
+  "name": "natours",
   "version": "1.0.0",
-  "description": "A mockup landing page for a travel agency startup.",
+  "description": "learning node.js, express, mongoDB and mongoose",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -16,12 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/lgope/Natours.git"
   },
-  "author": "Lakshman Gope",
+  "author": "Mohamed Ramadan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lgope/Natours/issues"
   },
-  "homepage": "https://github.com/lgope/Natours#readme",
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
     "a": "^3.0.1",
