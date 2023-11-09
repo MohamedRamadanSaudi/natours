@@ -5,7 +5,7 @@ export const displayMap = locations => {
     'pk.eyJ1IjoibW9oYW1lZHJhbWFkYW4xMSIsImEiOiJjbG83ODZoNWswMzJrMnFsajl5eTE0dnJwIn0.BeC1_4mJvLur1UrdbK5wPA';
   var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/rasedmia/ck3cmgrsx1qa61cpiuonp0dja',
+    style: 'mapbox://styles/mohamedramadan11/clo7a2xnh00v401r2fg1j451g',
     scrollZoom: false
     // center: [-118.113491, 34.111745],
     // zoom: 10,
