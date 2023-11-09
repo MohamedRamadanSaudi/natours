@@ -12,15 +12,8 @@
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
     "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lgope/Natours.git"
-  },
   "author": "Mohamed Ramadan",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lgope/Natours/issues"
-  },
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
     "a": "^3.0.1",
