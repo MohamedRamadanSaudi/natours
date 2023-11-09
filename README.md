@@ -120,6 +120,11 @@ Before using the API, you need to set the variables in Postman depending on your
 
 Check [Natours API Documentation](https://documenter.getpostman.com/view/8893042/SW7c37V6) for more info.
 
+## Deployment 🌍
+
+I had some problems when deploying the project, but this is a colleague's copy of the same project as mine
+(Feel free to visit) 👉🏻 : https://lgope-natours.onrender.com/
+
 ## Build With 🏗️
 
 - [NodeJS](https://nodejs.org/en/) - JS runtime environment
